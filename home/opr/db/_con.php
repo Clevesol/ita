@@ -6,7 +6,7 @@ class _con{
 	private $_con;
 	
 	function __construct(){
-		$this->_con = mysqli_connect('localhost','root','','h_rent');
+		$this->_con = mysqli_connect('localhost','root','toor','h_rent');
 	}
 	
 	function __destruct(){
