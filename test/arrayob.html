@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<script type="text/javascript">
+
+	var array = new Array();
+	
+	var person = {
+			firstname : "John",
+			lastname : "Doe",
+			age : "46"
+	};
+	
+	var person2 = {
+			firstname : "John",
+			lastname : "Doe",
+			age : "46"
+	};
+	
+	
+	array.push(person);
+	array.push(person2);
+	
+	
+	document.load = function(){
+		document.getElementById('tuna').innerHTML += "Hello World";
+		
+		for(var t = 0; t < array.length;t++){
+			document.getElementById('tuna').innerHTML += "<p>" + array[t].firstname + "</p>";
+			
+		}
+		
+	}
+
+</script>
+
+</head>
+<body>
+
+	<div id="tuna"></div>
+
+</body>
+
+</html>

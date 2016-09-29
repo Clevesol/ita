@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function doThat(event){
+		console.log(event.target.files);
+	}
+</script>
+</head>
+<body>
+	<input onchange="doThat(event)" type="file" value="openfile">
+	
+</body>
+</html>

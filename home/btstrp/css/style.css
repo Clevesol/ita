@@ -1,0 +1,177 @@
+@font-face{
+	font-family : myRiad;
+	src : url ('/res/fonts/mrp.otf');
+}
+
+@font-face{
+	font-family : lithosPro;
+	src : url('/res/fonts/lpr.otf');
+}
+
+@font-face{
+	font-familly : "haettenschweiler";
+	src : url('/res/fonts/HATTEN.TTF');
+}
+
+
+
+--input[type='submit'],input[type='reset'],input[type='button']
+input[type='submit'],.btn-default,input[type='button']{
+	background-color:#222127;
+	border : 1px solid #222123;
+	color:white;
+	text-transform: uppercase;
+}
+
+
+.feature-box>a>.product{
+	padding: 0px;
+	margin : 0px;
+	text-align : center;
+	border : 1px solid black;
+}
+
+.product>div>figure>img{
+	max-width : 100%;
+	position : relative;
+}
+.product>div>figure>figcaption{
+	width : 100%;
+	padding-right : 2px;
+	float : right; 	
+	position: absolute;
+	text-align: right;
+	vertical-align: bottom;
+	color:white;
+	background:black;
+}
+
+.btn-custom{
+	background-color:#222127;
+	border : 1px solid #222123;
+	color:white;
+	text-transform: uppercase	;
+	height : 60px;
+	--margin-left : 20px;
+	margin-top : 100px;
+}
+
+.ribbon-container{
+	padding : 0;
+}
+.thin-ribbon{
+	border-color : #2b2b2e;
+}
+
+.custom-h4{
+	color : #2b2b2b;
+	text-align : center;
+	font-weight : bold;
+}
+
+#feature-container{
+	padding-top: 50px;	
+	background-color : #ebebeb;
+	--border-top : 10px solid black;
+}
+
+.product{
+	background-color : white;
+}
+
+.product>div{
+	padding : 2px;
+}
+
+.rating-bar{
+	background-color : #cb8a51;
+	color : white;
+}
+
+.navbar-nav>li>a>span>img{
+	height:14px;
+	--border : 1px solid red;
+	padding-right : 5px;
+}
+.navbar-nav>li>a{
+	line-height : 30px;
+	text-transform : uppercase;
+	font-size : 14px;
+}
+
+.navbar.nav{
+	--min-height : 60px;
+}
+
+.navbar{
+	--min-height : 60px;
+}
+
+.navbar-brand
+{
+	height : 60px;
+}
+
+.feature-box{
+	--border : 1px solid red;
+	--background-color: white;
+	--padding-left: 100px;
+}
+
+.default-ribbon{
+	border: 20px solid #2b2b2b;
+}
+
+#pop{
+	position: relative;
+	visibility: hidden;
+	z-index : 99999;
+}
+
+#sbtn_home{
+	height : 36px;
+	
+}
+
+#sbar_home,#sbtn_home{
+	border-radius : 10px;
+	height : 60px;
+}
+
+.container-fluid{
+	padding : 0px;
+	margin : 0px;
+	
+}
+.navbar,.navbar .navbar-nav li a{
+	background-color : #222127;
+	color :white;
+}
+
+.navbar .navbar-nav   .active > a,
+.navbar .navbar-nav   .active > a:active,
+.navbar .navbar-nav   .active > a:hover
+{
+	background-color : #222127;
+	color: white;
+}
+
+#main-form{
+	margin : 0px;
+	padding: 0px;
+	height : 750px;
+	padding-top : 150px;
+	background-image: url('/home/res/w-south-norm.jpg');
+	background-repeat : no-repeat;
+	background-size : 100% auto;
+}
+
+#priceD{
+	text-align : right;
+}
+
+#priceD input{
+	text-align : right;
+}
+
+
